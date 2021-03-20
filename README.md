@@ -4,6 +4,7 @@
 
 ### Data Structures
 
+- Binary Search Tree
 - Hashtable
 - LinkedList
 - Stack
