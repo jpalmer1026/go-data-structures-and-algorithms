@@ -5,7 +5,8 @@
 ### Data Structures
 
 - Binary Search Tree
+- Graph
 - Hashtable
 - LinkedList
-- Stack
 - Queue
+- Stack 
