@@ -12,7 +12,14 @@ func main() {
 	bst.Insert(1)
 	bst.Insert(6)
 	bst.Insert(111)
+	bst.Insert(19)
+	bst.Insert(26)
 
-	treeContains := bst.Lookup(111)
+	treeContains := bst.Lookup(26)
 	fmt.Println(treeContains)
+
+	bst.Remove(26)
+	treeContains = bst.Lookup(26)
+	fmt.Println(treeContains)
+
 }
