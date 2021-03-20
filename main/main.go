@@ -1,13 +1,18 @@
 package main
 
-import "ds.com/ds/ds"
+import (
+	"ds.com/ds/ds"
+	"fmt"
+)
 
 func main() {
-	q := ds.NewQueue(10)
-	q.Enqueue(20)
-	q.Enqueue(30)
-	q.Dequeue()
-	q.Dequeue()
-	q.Dequeue()
-	q.PeekPrint()
+	bst := ds.NewBinarySearchTree(20)
+	bst.Insert(45)
+	bst.Insert(11)
+	bst.Insert(1)
+	bst.Insert(6)
+	bst.Insert(111)
+
+	treeContains := bst.Lookup(111)
+	fmt.Println(treeContains)
 }

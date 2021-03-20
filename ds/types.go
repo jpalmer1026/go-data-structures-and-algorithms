@@ -5,3 +5,9 @@ type node struct {
 	next     *node
 	previous *node
 }
+
+type bstNode struct {
+	value int
+	left  *bstNode
+	right *bstNode
+}
