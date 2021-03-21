@@ -13,5 +13,8 @@
 
 ### Algorithms
 
+#### Sorting
+
 - Bubble Sort
-- Recursion
+- Insertion Sort
+- Selection Sort
