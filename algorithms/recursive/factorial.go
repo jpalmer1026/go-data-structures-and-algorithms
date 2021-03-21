@@ -1,4 +1,4 @@
-package algorithms
+package recursive
 
 func Factorial(v int) int {
 	if v < 3 {

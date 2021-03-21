@@ -13,4 +13,5 @@
 
 ### Algorithms
 
+- Bubble Sort
 - Recursion
